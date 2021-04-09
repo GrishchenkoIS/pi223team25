@@ -1,4 +1,4 @@
-jpackage laba4;
+package laba4;
 
 import java.io.IOException;
 
