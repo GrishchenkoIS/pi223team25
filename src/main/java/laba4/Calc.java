@@ -50,6 +50,9 @@ public class Calc extends HttpServlet {
 			}
 			
 			result=Math.PI*first_try*first_try*(second_try-1/3*first_try);
+			if (second_try <= 0) {
+				result = 0;
+			}
 			request.setAttribute("result", result);
 		}
 		
