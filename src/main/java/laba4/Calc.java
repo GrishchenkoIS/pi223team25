@@ -1,4 +1,4 @@
-jpackage laba4;
+package laba4;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="Calc", urlPatterns="/JavaCalc") //связывание сервлета с URL
+@WebServlet(name="Calc", urlPatterns="/JavaCalc") 
 public class Calc extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
