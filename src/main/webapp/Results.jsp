@@ -9,9 +9,9 @@
 <body>
 <h1>Результат вычисления</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Высота (см):</strong> ${first_result}</p>
-<p><strong>Радиус (см):</strong> ${second_result}</p>
-<p><strong>Результат:</strong> ${result}<span>см^3</span> </p>
+<p><strong>Высота (мм):</strong> ${first_result}</p>
+<p><strong>Радиус (мм):</strong> ${second_result}</p>
+<p><strong>Результат:</strong> ${result}<span>мм^3</span> </p>
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
