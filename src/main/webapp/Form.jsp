@@ -15,5 +15,5 @@
         <input type="text" name="second" id="second" value="${second}">
         <input type="submit" name="sign" value="Calculate">
     </form>
-    </body>
+</body>
 </html>
