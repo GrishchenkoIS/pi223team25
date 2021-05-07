@@ -1,21 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ</title>
+<title>Результат вычисления</title>
 </head>
 <body>
-<h1>Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ</h1>
-<h2>Р’Р°С€Рё РІРІРµРґРµРЅС‹Рµ РґР°РЅРЅС‹Рµ:</h2>
-<p><strong>Р’С‹СЃРѕС‚Р° (СЃРј):</strong> ${first_result}</p>
-<p><strong>Р Р°РґРёСѓСЃ (СЃРј):</strong> ${second_result}</p>
-<p><strong>Р РµР·СѓР»СЊС‚Р°С‚:</strong> ${result}<span>СЃРј^3</span> </p>
+<h1>Результат вычисления</h1>
+<h2>Ваши введеные данные:</h2>
+<p><strong>Высота (мм):</strong> ${first_result}</p>
+<p><strong>Радиус (мм):</strong> ${second_result}</p>
+<p><strong>Результат:</strong> ${result}<span>см^3</span> </p>
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
-    <input type="submit" name="sign" value="РќР°Р·Р°Рґ">
-    </form>
+<input type="submit" name="sign" value="Назад">
+</form>
 
 </body>
-</html>
